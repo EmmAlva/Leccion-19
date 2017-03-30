@@ -1,0 +1,32 @@
+*{
+	font-family: 'Raleway';
+	display: inline-block;
+}
+body{
+	text-align: center;
+}
+select{
+	font-size: 15px;
+	color: gray;
+	align-items: center;
+}
+div{
+	width: 1200px;
+}
+.animal{
+	width: 300px;
+	height: 300px;
+	margin: 0;
+}
+.sepia{
+	-webkit-filter:sepia(1);
+	filter: sepia(1);
+}
+.blanco-negro{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+.invertir-colores{
+	-webkit-filter: invert(.8);
+	filter: invert(.8);
+}
