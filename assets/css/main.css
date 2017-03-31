@@ -1,9 +1,11 @@
 *{
 	font-family: 'Raleway';
-	display: inline-block;
+	
 }
+@media screen and (max-width: 2000px){
 body{
 	text-align: center;
+	display: inline-block;
 }
 select{
 	font-size: 15px;
@@ -29,4 +31,37 @@ div{
 .invertir-colores{
 	-webkit-filter: invert(.8);
 	filter: invert(.8);
+}
+}
+
+@media screen and (max-width: 480px){
+	body{
+	text-align: center;
+	display: run-in;
+}
+select{
+	font-size: 15px;
+	color: gray;
+	align-items: center;
+}
+div{
+	width: 300px;
+}
+.animal{
+	width: 300px;
+	height: 300px;
+	margin: 0;
+}
+.sepia{
+	-webkit-filter:sepia(1);
+	filter: sepia(1);
+}
+.blanco-negro{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+.invertir-colores{
+	-webkit-filter: invert(.8);
+	filter: invert(.8);
+}
 }
